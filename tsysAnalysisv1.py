@@ -2,6 +2,7 @@ import pandas
 import numpy
 import pylab
 from config import *
+#This script is used in conjunction with the config script that must be located in the same directory
 
 #read in the data from the hot cold load tests
 coldOn = pandas.read_csv(coldNDOn,delimiter=",",header=45)
